@@ -488,7 +488,7 @@ namespace BlazorEcommerce.Server.Migrations
                         },
                         new
                         {
-                            ProductId = 5,
+                            ProductId = 2,
                             ProductTypeId = 5,
                             Deleted = false,
                             OriginalPrice = 0m,
@@ -497,7 +497,7 @@ namespace BlazorEcommerce.Server.Migrations
                         },
                         new
                         {
-                            ProductId = 6,
+                            ProductId = 3,
                             ProductTypeId = 5,
                             Deleted = false,
                             OriginalPrice = 0m,
@@ -506,7 +506,7 @@ namespace BlazorEcommerce.Server.Migrations
                         },
                         new
                         {
-                            ProductId = 7,
+                            ProductId = 1,
                             ProductTypeId = 8,
                             Deleted = false,
                             OriginalPrice = 29.99m,
@@ -515,7 +515,7 @@ namespace BlazorEcommerce.Server.Migrations
                         },
                         new
                         {
-                            ProductId = 7,
+                            ProductId = 2,
                             ProductTypeId = 9,
                             Deleted = false,
                             OriginalPrice = 0m,
@@ -524,8 +524,8 @@ namespace BlazorEcommerce.Server.Migrations
                         },
                         new
                         {
-                            ProductId = 7,
-                            ProductTypeId = 10,
+                            ProductId = 4,
+                            ProductTypeId = 9,
                             Deleted = false,
                             OriginalPrice = 59.99m,
                             Price = 49.99m,
@@ -533,7 +533,7 @@ namespace BlazorEcommerce.Server.Migrations
                         },
                         new
                         {
-                            ProductId = 8,
+                            ProductId = 4,
                             ProductTypeId = 8,
                             Deleted = false,
                             OriginalPrice = 24.99m,
@@ -542,7 +542,7 @@ namespace BlazorEcommerce.Server.Migrations
                         },
                         new
                         {
-                            ProductId = 9,
+                            ProductId = 2,
                             ProductTypeId = 8,
                             Deleted = false,
                             OriginalPrice = 0m,
@@ -551,7 +551,7 @@ namespace BlazorEcommerce.Server.Migrations
                         },
                         new
                         {
-                            ProductId = 10,
+                            ProductId = 1,
                             ProductTypeId = 1,
                             Deleted = false,
                             OriginalPrice = 299m,
@@ -560,7 +560,7 @@ namespace BlazorEcommerce.Server.Migrations
                         },
                         new
                         {
-                            ProductId = 11,
+                            ProductId = 2,
                             ProductTypeId = 1,
                             Deleted = false,
                             OriginalPrice = 399m,
@@ -604,7 +604,7 @@ namespace BlazorEcommerce.Server.Migrations
                         new
                         {
                             Id = 1,
-                            DateCreated = new DateTime(2024, 8, 12, 14, 43, 38, 720, DateTimeKind.Local).AddTicks(7678),
+                            DateCreated = new DateTime(2024, 8, 12, 15, 31, 37, 709, DateTimeKind.Local).AddTicks(9400),
                             Email = "admin@gmail.com",
                             PasswordHash = new byte[] { 176, 56, 51, 206, 226, 18, 35, 201, 38, 164, 60, 113, 228, 246, 208, 61, 136, 178, 197, 74, 226, 67, 56, 145, 62, 55, 127, 125, 98, 75, 168, 179, 169, 197, 8, 222, 93, 191, 101, 69, 25, 91, 114, 110, 252, 193, 128, 168, 65, 47, 52, 140, 50, 186, 190, 167, 50, 120, 36, 255, 238, 153, 58, 92 },
                             PasswordSalt = new byte[] { 110, 81, 57, 144, 189, 210, 75, 152, 100, 255, 116, 138, 144, 34, 123, 142, 196, 180, 56, 245, 213, 136, 142, 125, 133, 234, 135, 152, 154, 184, 123, 15, 44, 165, 103, 219, 197, 47, 249, 5, 191, 73, 133, 250, 132, 51, 90, 197, 133, 26, 195, 106, 181, 151, 68, 193, 250, 161, 6, 218, 99, 231, 216, 211, 36, 31, 192, 181, 154, 94, 220, 116, 75, 157, 70, 196, 234, 240, 0, 34, 146, 95, 196, 240, 213, 52, 220, 90, 179, 56, 63, 53, 215, 189, 128, 58, 21, 51, 166, 159, 84, 252, 72, 114, 58, 196, 122, 175, 243, 86, 7, 217, 82, 7, 109, 181, 118, 107, 219, 245, 228, 174, 111, 199, 87, 83, 50, 196 },

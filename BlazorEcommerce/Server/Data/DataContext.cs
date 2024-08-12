@@ -20,15 +20,15 @@
 
             modelBuilder.Entity<ProductType>().HasData(
                     new ProductType { Id = 1, Name = "Default" },
-    new ProductType { Id = 2, Name = "Fresh" },
-    new ProductType { Id = 3, Name = "Frozen" },
-    new ProductType { Id = 4, Name = "Canned" },
-    new ProductType { Id = 5, Name = "Dried" },
-    new ProductType { Id = 6, Name = "Packaged" },
-    new ProductType { Id = 7, Name = "Baked" },
-    new ProductType { Id = 8, Name = "Grilled" },
-    new ProductType { Id = 9, Name = "Fried" },
-    new ProductType { Id = 10, Name = "Boiled" }
+                    new ProductType { Id = 2, Name = "Fresh" },
+                    new ProductType { Id = 3, Name = "Frozen" },
+                    new ProductType { Id = 4, Name = "Canned" },
+                    new ProductType { Id = 5, Name = "Dried" },
+                    new ProductType { Id = 6, Name = "Packaged" },
+                    new ProductType { Id = 7, Name = "Baked" },
+                    new ProductType { Id = 8, Name = "Grilled" },
+                    new ProductType { Id = 9, Name = "Fried" },
+                    new ProductType { Id = 10, Name = "Boiled" }
                 );
 
             modelBuilder.Entity<User>().HasData(
@@ -89,50 +89,50 @@
                         CategoryId = 1,
                         Featured = true
                     },
-    new Product
-    {
-        Id = 2,
-        Title = "Sourdough Bread",
-        Description = "Artisanal sourdough bread made with natural fermentation techniques.",
-        ImageUrl = "https://example.com/sourdough.jpg",
-        CategoryId = 2,
-        Featured = true
-    },
-    new Product
-    {
-        Id = 3,
-        Title = "Grilled Steak",
-        Description = "Juicy grilled steak served with seasonal vegetables.",
-        ImageUrl = "https://example.com/grilled-steak.jpg",
-        CategoryId = 3,
-        Featured = false
-    }, new Product
-    {
-        Id = 4,
-        Title = "Margherita Pizza",
-        Description = "Classic Margherita pizza with fresh tomatoes, mozzarella cheese, and basil.",
-        ImageUrl = "https://example.com/margherita-pizza.jpg",
-        CategoryId = 1,
-        Featured = true
-    },
-    new Product
-    {
-        Id = 5,
-        Title = "Chocolate Chip Cookies",
-        Description = "Crispy chocolate chip cookies made with premium ingredients.",
-        ImageUrl = "https://example.com/chocolate-chip-cookies.jpg",
-        CategoryId = 2,
-        Featured = true
-    },
-    new Product
-    {
-        Id = 6,
-        Title = "Roast Chicken",
-        Description = "Tender roast chicken seasoned with herbs and served with roasted potatoes.",
-        ImageUrl = "https://example.com/roast-chicken.jpg",
-        CategoryId = 3,
-        Featured = false
-    }
+                        new Product
+                        {
+                            Id = 2,
+                            Title = "Sourdough Bread",
+                            Description = "Artisanal sourdough bread made with natural fermentation techniques.",
+                            ImageUrl = "https://example.com/sourdough.jpg",
+                            CategoryId = 2,
+                            Featured = true
+                        },
+                        new Product
+                        {
+                            Id = 3,
+                            Title = "Grilled Steak",
+                            Description = "Juicy grilled steak served with seasonal vegetables.",
+                            ImageUrl = "https://example.com/grilled-steak.jpg",
+                            CategoryId = 3,
+                            Featured = false
+                        }, new Product
+                        {
+                            Id = 4,
+                            Title = "Margherita Pizza",
+                            Description = "Classic Margherita pizza with fresh tomatoes, mozzarella cheese, and basil.",
+                            ImageUrl = "https://example.com/margherita-pizza.jpg",
+                            CategoryId = 1,
+                            Featured = true
+                        },
+                        new Product
+                        {
+                            Id = 5,
+                            Title = "Chocolate Chip Cookies",
+                            Description = "Crispy chocolate chip cookies made with premium ingredients.",
+                            ImageUrl = "https://example.com/chocolate-chip-cookies.jpg",
+                            CategoryId = 2,
+                            Featured = true
+                        },
+                        new Product
+                        {
+                            Id = 6,
+                            Title = "Roast Chicken",
+                            Description = "Tender roast chicken seasoned with herbs and served with roasted potatoes.",
+                            ImageUrl = "https://example.com/roast-chicken.jpg",
+                            CategoryId = 3,
+                            Featured = false
+                        }
                     );
 
             modelBuilder.Entity<ProductVariant>().HasData(
@@ -189,59 +189,59 @@
                 },
                 new ProductVariant
                 {
-                    ProductId = 5,
+                    ProductId = 2,
                     ProductTypeId = 5,
                     Price = 3.99m,
                 },
                 new ProductVariant
                 {
-                    ProductId = 6,
+                    ProductId = 3,
                     ProductTypeId = 5,
                     Price = 2.99m
                 },
                 new ProductVariant
                 {
-                    ProductId = 7,
+                    ProductId = 1,
                     ProductTypeId = 8,
                     Price = 19.99m,
                     OriginalPrice = 29.99m
                 },
                 new ProductVariant
                 {
-                    ProductId = 7,
+                    ProductId = 2,
                     ProductTypeId = 9,
                     Price = 69.99m
                 },
                 new ProductVariant
                 {
-                    ProductId = 7,
-                    ProductTypeId = 10,
+                    ProductId = 4,
+                    ProductTypeId = 9,
                     Price = 49.99m,
                     OriginalPrice = 59.99m
                 },
                 new ProductVariant
                 {
-                    ProductId = 8,
+                    ProductId = 4,
                     ProductTypeId = 8,
                     Price = 9.99m,
                     OriginalPrice = 24.99m,
                 },
                 new ProductVariant
                 {
-                    ProductId = 9,
+                    ProductId = 2,
                     ProductTypeId = 8,
                     Price = 14.99m
                 },
                 new ProductVariant
                 {
-                    ProductId = 10,
+                    ProductId =1,
                     ProductTypeId = 1,
                     Price = 159.99m,
                     OriginalPrice = 299m
                 },
                 new ProductVariant
                 {
-                    ProductId = 11,
+                    ProductId = 2,
                     ProductTypeId = 1,
                     Price = 79.99m,
                     OriginalPrice = 399m
